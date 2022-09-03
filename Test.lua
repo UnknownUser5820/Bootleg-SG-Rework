@@ -1867,6 +1867,24 @@ while true do
 					LeftKnee = Cf(0,0,0) * Angles(Rad(-16.616+10*Sin(Sine/65)), 0, 0),LeftKneeDelay = NewAnimSpeed,
 					LeftAnkle = Cf(0,0,0) * Angles(Rad(-5.615+3*Sin(Sine/65)), Rad(18.392), Rad(7.792)),LeftAnkleDelay = NewAnimSpeed,
 				},"Lerp")
+			elseif Mode == 2 then
+				NewAnim({
+					RootJoint = Cf(-0.311, -0.068+0.1*Sin(Sine/65), -0.162-0.15*Sin(Sine/65)) * Angles(Rad(-13.293), Rad(-3.839), Rad(-2.865)),RootJointDelay = NewAnimSpeed,
+					Waist = Cf(0,0,0) * Angles(Rad(-3.266), 0, 0),WaistDelay = NewAnimSpeed,
+					Neck = Cf(0, 0, 0) * Angles(Rad(0), Rad(0), Rad(0)),NeckDelay = NewAnimSpeed,
+					RightShoulder = Cf(0.002, -0.007, 0.2) * Angles(Rad(-22.689-math.random(-2,2)), Rad(18.105), Rad(4.24+math.random(-2,2))),RightShoulderDelay = NewAnimSpeed,
+					RightElbow = Cf(0,0,0) * Angles(Rad(-0.057), 0, 0),RightElbowDelay = NewAnimSpeed,
+					RightWrist = Cf(0,0,0) * Angles(Rad(0),Rad(0),Rad(0)),RightWristDelay = NewAnimSpeed,
+					LeftShoulder = Cf(0,0,0) * Angles(Rad(22.689+math.random(-2,2)), Rad(-18.105), Rad(-4.24+math.random(-2,2))),LeftShoulderDelay = NewAnimSpeed,
+					LeftElbow = Cf(0,0,0) * Angles(Rad(-0.057), 0, 0),LeftElbowDelay = NewAnimSpeed,
+					LeftWrist = Cf(0,0,0) * Angles(Rad(0),Rad(0),Rad(0)),LeftWristDelay = NewAnimSpeed,
+					RightHip = Cf(0,0,0) * Angles(Rad(23.549-15*Sin(Sine/65)), Rad(4.412), Rad(8.251)),RightHipDelay = NewAnimSpeed,
+					RightKnee = Cf(0,0,0) * Angles(Rad(-26.07+15*Sin(Sine/65)), 0, 0),RightKneeDelay = NewAnimSpeed,
+					RightAnkle = Cf(0,0,0) * Angles(Rad(15.814-3*Sin(Sine/65)), Rad(1.146), Rad(-7.047)),RightAnkleDelay = NewAnimSpeed,
+					LeftHip = Cf(0,0,0) * Angles(Rad(31.742-15*Sin(Sine/65)), Rad(-1.891), Rad(-8.193)),LeftHipDelay = NewAnimSpeed,
+					LeftKnee = Cf(0,0,0) * Angles(Rad(-16.616+10*Sin(Sine/65)), 0, 0),LeftKneeDelay = NewAnimSpeed,
+					LeftAnkle = Cf(0,0,0) * Angles(Rad(-5.615+3*Sin(Sine/65)), Rad(18.392), Rad(7.792)),LeftAnkleDelay = NewAnimSpeed,
+				},"Lerp")
 			elseif Mode == 3 then
 				NewAnim({
 					RootJoint = Cf(0+2*Sin(Sine/78), 1.334-0.8 * Sin(Sine/45), 0+1*Sin(Sine/63)) * Angles(Rad(4.354), 0, 0),RootJointDelay = NewAnimSpeed,
